@@ -1,0 +1,14 @@
+
+.button {
+    -fx-background-color: #58616D;
+    -fx-background-radius: 50;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.30), 6, 0, 2, 4);
+}
+
+.button:hover {
+    -fx-background-color: #5e6773;
+}
+
+.button:pressed {
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.25), 4, 0, 2, 4);
+}
